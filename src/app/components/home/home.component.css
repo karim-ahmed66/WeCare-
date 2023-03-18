@@ -14,7 +14,7 @@
 
 .section1-content {
   position: absolute;
-  top: 220px;
+  top: 200px;
   right: 70px;
 }
 
@@ -22,6 +22,13 @@
   font-weight: 300;
   font-size: 2em;
   margin-bottom: 10px;
+}
+
+.empty-div {
+  width: 80px;
+  height: 1px;
+  border: 3px solid red;
+  margin-top: 3px;
 }
 
 .section1-title2 {
@@ -38,8 +45,7 @@
   color: #ff101d;
 }
 
-.section1-btn1,
-.section1-btn2 {
+.section1-btn1{
   display: inline-block;
   color: white;
   margin-left: 8px;
@@ -61,16 +67,150 @@
   cursor: pointer;
 }
 
-.section1-btn2 {
-  background-color: rgb(61, 61, 61);
-}
-
-.section1-btn2:hover {
-  background-color: black;
-  transition: 0.5s;
-  cursor: pointer;
-}
-
 .section1-title4 {
   font-weight: 400;
+  line-height: 40px;
 }
+/*start section2-about-us*/
+.container-section2-aboutus-d1{
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-section2-aboutus .section2-aboutus-title1 {
+  font-weight: 700;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.container-section2-aboutus .section2-aboutus-title2 {
+  font-size: 4em;
+  font-weight: 300;
+  color: black;
+  margin-bottom: -40px;
+}
+/*end section2-about-us*/
+/*start section3-about-us*/
+.container-section3-aboutus{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.section3-aboutus-icon1 i{
+  font-size: 3em;
+  color: #e10f28;
+  margin-bottom: 10px;
+}
+.section3-aboutus-icon1 i:hover{
+  color: #000000;
+  transition: 0.5s;
+}
+.section3-aboutus-title1{
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.section3-aboutus-title4{
+  opacity: 0.7;
+  font-size: 0.9em;
+}
+.cards {
+  padding: 20px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+/* end section 3*/
+/* start section 4 */
+.cards{
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.card {
+  background-color: #fff;
+  width: 18.25em;
+  height: 528px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 30px 0px;
+}
+
+.card .card-image {
+  /* background-image: url(..); */
+  background-position: top;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.card-info {
+  color: white;
+  padding: 30px 40px;
+  height: 340px;
+  background-color: rgb(241, 241, 241);
+  text-align: center;
+}
+
+.card-info h3 {
+  font-size: 1.2em;
+  color: rgb(34, 34, 34);
+  font-weight: 300;
+}
+
+.card-info p {
+  font-size: 0.9em;
+  font-weight: 400;
+  color: rgb(34, 34, 34);
+}
+
+.card-info h2 {
+  margin: 20px 0px;
+  color: rgb(34, 34, 34);
+}
+
+.card button {
+  background-color: white;
+  color: black;
+  border: 0;
+  padding: 8px 28px;
+  border-radius: 40px;
+  font-size: 0.9em;
+  margin-top: 20px;
+}
+
+.card button:hover {
+  background-color: rgb(224, 224, 224);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.card .card-image1 {
+  /* background-image: url(..); */
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+}
+
+.card .card-image2 {
+  /* background-image: url(..); */
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+}
+
+.card .card-image3 {
+  height: 200px;
+  width: 100%;
+  color: rgb(225, 15, 40);
+  font-size: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* end section 4 */
