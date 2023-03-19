@@ -5,14 +5,14 @@ import { Router } from '@angular/router';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
 })
-export class NavbarComponent implements OnInit{
+export class NavbarComponent implements OnInit {
   constructor(
     private router: Router,
-  ){}
+  ) { }
   ngOnInit(): void {
     throw new Error('Method not implemented.');
   }
-  goToLogin(){
+  goToLogin() {
     this.router.navigateByUrl('login')
   }
 }

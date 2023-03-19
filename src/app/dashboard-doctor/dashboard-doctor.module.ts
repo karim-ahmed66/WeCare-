@@ -6,8 +6,8 @@ import { CategoriesComponent } from './categories/categories.component';
 import { TestsListComponent } from './tests-list/tests-list.component';
 import { DoctorsComponent } from './doctors/doctors.component';
 import { PatientComponent } from './patient/patient.component';
-import { ProfilesComponent } from '../pages/profiles/profiles.component';
 import { DashboardHeadComponent } from './dashboard-head/dashboard-head.component';
+import { AppRoutingModule } from '../app-routing.module';
 
 
 
@@ -19,11 +19,21 @@ import { DashboardHeadComponent } from './dashboard-head/dashboard-head.componen
     TestsListComponent,
     DoctorsComponent,
     PatientComponent,
-    ProfilesComponent,
     DashboardHeadComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AppRoutingModule,
+
+  ],
+  exports: [
+    DashboardHomeComponent,
+    SidebarComponent,
+    CategoriesComponent,
+    TestsListComponent,
+    DoctorsComponent,
+    PatientComponent,
+    DashboardHeadComponent,
   ]
 })
 export class DashboardDoctorModule { }
