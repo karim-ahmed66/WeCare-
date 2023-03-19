@@ -14,4 +14,7 @@ export class LoginComponent {
   goToDashboard() {
     this.router.navigateByUrl('dashboard-home');
   }
+  goToRegister() {
+    this.router.navigateByUrl('register');
+  }
 }

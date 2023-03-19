@@ -8,6 +8,8 @@ import { DoctorsComponent } from './doctors/doctors.component';
 import { PatientComponent } from './patient/patient.component';
 import { DashboardHeadComponent } from './dashboard-head/dashboard-head.component';
 import { AppRoutingModule } from '../app-routing.module';
+import { CategoriesListComponent } from './categories-list/categories-list.component';
+import { AddPatientComponent } from './add-patient/add-patient.component';
 
 
 
@@ -20,6 +22,8 @@ import { AppRoutingModule } from '../app-routing.module';
     DoctorsComponent,
     PatientComponent,
     DashboardHeadComponent,
+    CategoriesListComponent,
+    AddPatientComponent,
   ],
   imports: [
     CommonModule,

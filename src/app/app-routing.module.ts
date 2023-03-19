@@ -14,7 +14,7 @@ const routes: Routes = [
     children: [{
       path: '',
       loadChildren: () => import('./dashboard-doctor/dashboard-doctor-routing.module').then(m => m.DashboardDoctorRoutingModule)
-    }]
+    },]
   },
 ];
 
