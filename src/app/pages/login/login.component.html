@@ -1,0 +1,27 @@
+<div class="container-flid d-flex m-auto mt-4 w-75">
+  <div class="right p-5">
+    <p class="fs-3 mt-5">لوجو</p>
+    <div class="empty-div my-2"></div>
+    <h3 class="fw-bold">تسجيل الدخول</h3>
+    <h4 class="fs-5 fw-bold text-muted mb-5">مرحبًا بك مرة أخرى في .....</h4>
+    <form>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label fw-bold fs-5">البريد الالكتروني</label>
+        <input type="email" class=" form-control w-75" id="exampleFormControlInput1" placeholder="name@example.com"
+          required style="box-shadow: none;">
+      </div>
+      <div class="mb-3">
+        <div class="col-auto">
+          <label for="inputPassword6" class="col-form-label fw-bold fs-5">كلمة السر</label>
+        </div>
+        <div class="col-auto">
+          <input type="password" id="inputPassword6" class="form-control w-75" aria-describedby="passwordHelpInline" placeholder="ادخل كلمة السر" required style="box-shadow: none;">
+        </div>
+      </div>
+      <a href=".." class="regis fs-5 mb-3">ليس لديك حساب؟</a>
+      <button type="submit" class="btn btn-danger  m-auto w-75 fs-5" (click)="goToDashboard()">تسجيل الدخول</button>
+    </form>
+  </div>
+  <div class="left">
+  </div>
+</div>
