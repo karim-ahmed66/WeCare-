@@ -14,6 +14,6 @@ export class PatientComponent {
     throw new Error('Method not implemented.');
   }
   addpatient() {
-    this.router.navigateByUrl('addPatient')
+    this.router.navigateByUrl('addPatient');
   }
 }
