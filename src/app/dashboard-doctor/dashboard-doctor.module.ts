@@ -10,6 +10,7 @@ import { DashboardHeadComponent } from './dashboard-head/dashboard-head.componen
 import { AppRoutingModule } from '../app-routing.module';
 import { CategoriesListComponent } from './categories-list/categories-list.component';
 import { AddPatientComponent } from './add-patient/add-patient.component';
+import { TestComponent } from './test/test.component';
 
 
 
@@ -24,6 +25,7 @@ import { AddPatientComponent } from './add-patient/add-patient.component';
     DashboardHeadComponent,
     CategoriesListComponent,
     AddPatientComponent,
+    TestComponent,
   ],
   imports: [
     CommonModule,

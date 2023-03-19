@@ -1,1 +1,131 @@
-<p>add-patient works!</p>
+<div class="container-flid d-flex m-auto mt-4 w-75">
+  <div class="right p-5">
+    <h3 class="fw-bold">اضافه مريض</h3>
+    <div class="empty-div my-2"></div>
+    <form>
+      <div class="row">
+        <div class="col">
+          <label for="validationDefault01" class="form-label fw-bold fs-5">الاسم الاول</label>
+          <input type="text" class="form-control" id="validationDefault01" placeholder="ادخل الاسم الاول" required
+            style="box-shadow: none;">
+        </div>
+        <div class="col">
+          <label for="validationDefault02" class="form-label fw-bold fs-5">الاسم الاخير</label>
+          <input type="text" class="form-control" id="validationDefault02" placeholder="ادخل الاسم الاخير" required
+            style="box-shadow: none;">
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label fw-bold fs-5">الرقم القومي</label>
+        <input type="number" class="form-control w-75" id="exampleFormControlInput1" placeholder="ادخل الرقم القومي"
+          required style="box-shadow: none;">
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="validationDefault01" class="form-label fw-bold fs-5">رقم ولي الامر</label>
+          <input type="number" class="form-control" id="validationDefault01" placeholder="ادخل رقم ولي الامر" required
+            style="box-shadow: none;">
+        </div>
+        <div class="col">
+          <label for="validationDefault02" class="form-label fw-bold fs-5">صله ولي</label>
+          <input type="text" class="form-control" id="validationDefault02" placeholder="ادخل صله ولي" required
+            style="box-shadow: none;">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="validationDefault01" class="form-label fw-bold fs-5">وظيفه الاب</label>
+          <input type="number" class="form-control" id="validationDefault01" placeholder="ادخل وظيفه الاب" required
+            style="box-shadow: none;">
+        </div>
+        <div class="col">
+          <label for="validationDefault02" class="form-label fw-bold fs-5">وظيفه الام</label>
+          <input type="text" class="form-control" id="validationDefault02" placeholder="ادخل وظيفه الام" required
+            style="box-shadow: none;">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="validationDefault01" class="form-label fw-bold fs-5">عدد الاخوه</label>
+          <input type="number" class="form-control" id="validationDefault01" placeholder="ادخل عدد الاخوه" required
+            style="box-shadow: none;">
+        </div>
+        <div class="col">
+          <label for="validationDefault02" class="form-label fw-bold fs-5">الترتيب بين الاخوه</label>
+          <input type="text" class="form-control" id="validationDefault02" placeholder="ادخل الترتيب بين الاخوه" required
+            style="box-shadow: none;">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="exampleDataList" class="form-label fw-bold fs-5">الدوله</label>
+          <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="ابحث عن الدوله"
+            style="box-shadow: none;" style="box-shadow: none;">
+          <datalist id="datalistOptions">
+            <option value="Egypt">
+            <option value="Afghanistan">
+            <option value="Albania">
+            <option value="Algeria">
+            <option value="Andorra">
+            <option value="Bahamas">
+            <option value="China">
+            <option value="Bahrain">
+            <option value="Colombia">
+            <option value="Dominica">
+            <option value="Estonia">
+            <option value="France">
+            <option value="Ghana">
+            <option value="Kuwait">
+            <option value="Mexico">
+            <option value="Turkey">
+          </datalist>
+        </div>
+        <div class="col">
+          <label for="City" class="form-label fw-bold fs-5">المدينه</label>
+          <select class="form-select" aria-label="Default select example" id="City"
+            style="box-shadow: none; border: none;">
+            <option selected>اختر من القائمه</option>
+            <option value="1">Cairo</option>
+            <option value="2">Alexandria</option>
+            <option value="3">Suez</option>
+            <option value="4">Mansora</option>
+            <option value="5">Fayuom</option>
+            <option value="6">Asiut</option>
+            <option value="7">Matrooh</option>
+            <option value="8">Behera</option>
+            <option value="9">Tanta</option>
+            <option value="10">Aswan</option>
+            <option value="11">Luxur</option>
+            <option value="12">Giza</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="validationDefault01" class="form-label fw-bold fs-5">تاريخ الميلاد</label>
+          <input type="datetime" class="form-control" id="validationDefault01" placeholder="ادخل تاريخ الميلاد" required
+            style="box-shadow: none;">
+        </div>
+        <div class="form-check col">
+          <p class="fw-bold fs-5">الجنس</p>
+          <div class="row">
+            <div class="col ms-3">
+              <label class="form-check-label fs-5" for="flexRadioDefault1">
+                ذكر
+              </label>
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+            </div>
+            <div class="col">
+            <label class="form-check-label fs-5" for="flexRadioDefault">
+              انثي
+            </label>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="submit" routerLink="dashboard" class="btn btn-danger  m-auto w-75 fs-5">اضافه</button>
+    </form>
+  </div>
+  <div class="left">
+  </div>
